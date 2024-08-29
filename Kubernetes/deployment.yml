@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: youtube-clone-app
-        image: kachi79/youtube-clone5
+        image: kachi79/kaira-clone:4
         imagePullPolicy: "Always"
         ports:
         - containerPort: 3000
